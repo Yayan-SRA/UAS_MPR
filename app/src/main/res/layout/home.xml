@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="733dp">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="412dp"
+                        android:layout_height="66dp"
+                        android:background="#64C7E6"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="173dp"
+                            android:layout_height="51dp"
+                            android:layout_marginLeft="10px"
+                            android:layout_marginTop="15px"
+                            app:srcCompat="@drawable/kampusmerdeka" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout"
+                        android:layout_width="407dp"
+                        android:layout_height="165dp"
+                        android:orientation="horizontal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                        app:layout_constraintVertical_bias="0.221"
+                        tools:ignore="MissingConstraints">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="101dp"
+                            android:layout_height="137dp"
+                            android:layout_marginStart="16dp"
+                            app:srcCompat="@drawable/pro" />
+
+                        <LinearLayout
+                            android:layout_width="97dp"
+                            android:layout_height="152dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView0"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20px"
+                                android:text="Nama  "
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20px"
+                                android:text="NIM "
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20px"
+                                android:text="Jurusan"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20px"
+                                android:text="TTL"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20px"
+                                android:text="PT Asal"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20px"
+                                android:text="PT Tujuan"
+                                android:textSize="18sp" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="186dp"
+                            android:layout_height="152dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20px"
+                                android:text="Sofyan Rizki Afandy"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20px"
+                                android:text="mbkm21-4611419031"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20px"
+                                android:text="Ilmu Komputer"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20px"
+                                android:text="Tuban, 31-08-2000"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20px"
+                                android:text="UNNES"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20px"
+                                android:text="USU"
+                                android:textSize="18sp" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="405dp"
+                        android:layout_height="356dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.666"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                        app:layout_constraintVertical_bias="0.966">
+
+                        <Button
+                            android:id="@+id/logbook"
+                            android:layout_width="match_parent"
+                            android:layout_height="73dp"
+                            android:layout_marginBottom="50px"
+                            android:onClick="logbook"
+                            android:text="Log Book"
+                            android:textSize="35sp" />
+
+                        <Button
+                            android:id="@+id/catatan"
+                            android:layout_width="match_parent"
+                            android:layout_height="73dp"
+                            android:layout_marginBottom="400px"
+                            android:text="Catatan"
+                            android:textSize="35sp" />
+
+                        <Button
+                            android:id="@+id/button4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Log Out"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pertukaran Mahasiswa Merdeka"
+                        android:textAlignment="center"
+                        android:textColor="#050505"
+                        android:textSize="30sp"
+                        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                        app:layout_constraintVertical_bias="0.527" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
